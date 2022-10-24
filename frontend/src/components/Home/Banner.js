@@ -19,7 +19,7 @@ const Banner = (props) => {
         <img src={logo} alt="banner" />
         <div>
           <span id="get-part">A place to get</span>
-          <input id="search-box" value={val} onChange={changeHandler}></input>
+          <input id="search-box" value={'avi'} onChange={changeHandler}></input>
           <span> the cool stuff.</span>
         </div>
       </div>
